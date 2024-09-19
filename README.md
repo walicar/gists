@@ -1,4 +1,4 @@
-# gists
+# snippets
 
 Minimal bash prompt: `export PS1='%1~ $ '`
 
