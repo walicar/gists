@@ -2,7 +2,7 @@
 
 ## Minimal bash prompt
 ```sh 
-export PS1='%1~ $ '
+export PS1='%* %1~ %B$%b '
 ```
 
 ## Transcode every .mov
