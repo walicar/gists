@@ -19,3 +19,8 @@ find ./ -name "*.cc"`
 ```sh
 for file in *_*; do mv "$file" "${file//_/-}"; done
 ```
+
+## Show context from grep
+```sh
+ffmepg -h | grep aspect -B 5 -A 5
+```
